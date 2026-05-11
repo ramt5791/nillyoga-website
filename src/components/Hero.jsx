@@ -8,7 +8,7 @@ export default function Hero() {
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/assets/hero.webp" 
+          src={`${import.meta.env.BASE_URL}assets/hero.webp`}
           alt="Yoga practice" 
           className="w-full h-full object-cover opacity-90 mix-blend-multiply"
         />
